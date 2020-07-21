@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script>
+
+    var str = "成績";
+    var score = prompt('請輸入' + str);
+
+    if( score < 60 ) {
+
+        var ret = confirm("你要被當了，你說我很帥就放過你");
+
+        if( ret ) {
+            score = 60;
+            alert('不錯不錯，調分到 60 分');
+        }
+        else {
+            alert('你死定了，你被當了！');
+        }
+
+    }
+    else {
+        alert('你及格了!');
+    }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
